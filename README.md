@@ -1,7 +1,7 @@
 # MJRefresh-Custom
 > 一直有这样一个需求，在上拉加载更多时footer在tableView的最底部，在当没有更多数据时footer紧更tableView的最后一个Cell，而且不可以继续上拉加载更多。
 
-## MJRefresh 默认有2宗模式
+## MJRefresh 默认有2种模式
 ### Auto
 1. 上拉一定距离不松手便可自动刷新（可关闭）
 2. footer紧更tableView的最后一个Cell

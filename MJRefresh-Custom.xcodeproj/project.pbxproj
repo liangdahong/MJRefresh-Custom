@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32BC0CE51F7CC3F5006871A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0CE41F7CC3F5006871A1 /* main.m */; };
-		32BC0CE81F7CC3F5006871A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0CE71F7CC3F5006871A1 /* AppDelegate.m */; };
-		32BC0CEB1F7CC3F5006871A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0CEA1F7CC3F5006871A1 /* ViewController.m */; };
+		314B07101F814A9700CB6B47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B06FF1F814A9700CB6B47 /* AppDelegate.m */; };
+		314B07111F814A9700CB6B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B07001F814A9700CB6B47 /* main.m */; };
+		314B07121F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B07031F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.m */; };
+		314B07131F814A9700CB6B47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B07071F814A9700CB6B47 /* ViewController.m */; };
+		314B07201F814AD200CB6B47 /* BMBottomNoDataView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B071A1F814AD200CB6B47 /* BMBottomNoDataView1.m */; };
+		314B07211F814AD200CB6B47 /* BMBottomNoDataView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314B071B1F814AD200CB6B47 /* BMBottomNoDataView1.xib */; };
+		314B07221F814AD200CB6B47 /* BMProductSearchBottomNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B071E1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.m */; };
+		314B07231F814AD200CB6B47 /* BMProductSearchBottomNoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314B071F1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.xib */; };
 		32BC0CEE1F7CC3F5006871A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BC0CEC1F7CC3F5006871A1 /* Main.storyboard */; };
 		32BC0CF01F7CC3F5006871A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BC0CEF1F7CC3F5006871A1 /* Assets.xcassets */; };
 		32BC0CF31F7CC3F5006871A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BC0CF11F7CC3F5006871A1 /* LaunchScreen.storyboard */; };
@@ -37,11 +42,6 @@
 		32BC0D5B1F7CC461006871A1 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0D441F7CC461006871A1 /* UIScrollView+MJRefresh.m */; };
 		32BC0D5C1F7CC461006871A1 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0D461F7CC461006871A1 /* UIView+MJExtension.m */; };
 		32BC0D5D1F7CC461006871A1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 32BC0D471F7CC461006871A1 /* README.md */; };
-		32CCD4061F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCD4051F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.m */; };
-		32FD8C331F7F8229004F2B41 /* BMProductSearchBottomNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD8C311F7F8229004F2B41 /* BMProductSearchBottomNoDataView.m */; };
-		32FD8C341F7F8229004F2B41 /* BMProductSearchBottomNoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FD8C321F7F8229004F2B41 /* BMProductSearchBottomNoDataView.xib */; };
-		32FD8C371F7F8667004F2B41 /* BMBottomNoDataView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD8C361F7F8667004F2B41 /* BMBottomNoDataView1.m */; };
-		32FD8C391F7F866F004F2B41 /* BMBottomNoDataView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FD8C381F7F866F004F2B41 /* BMBottomNoDataView1.xib */; };
 		B275A10B6830020CDEA4802E /* libPods-MJRefresh-Custom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C56BDB708DF93C85929E05 /* libPods-MJRefresh-Custom.a */; };
 /* End PBXBuildFile section */
 
@@ -64,12 +64,20 @@
 
 /* Begin PBXFileReference section */
 		247640150BB5CDCD2520A714 /* Pods-MJRefresh-Custom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefresh-Custom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJRefresh-Custom/Pods-MJRefresh-Custom.debug.xcconfig"; sourceTree = "<group>"; };
+		314B06FE1F814A9700CB6B47 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		314B06FF1F814A9700CB6B47 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		314B07001F814A9700CB6B47 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		314B07021F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRefreshBackNormalNoMoreDataFooter.h; sourceTree = "<group>"; };
+		314B07031F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRefreshBackNormalNoMoreDataFooter.m; sourceTree = "<group>"; };
+		314B07061F814A9700CB6B47 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		314B07071F814A9700CB6B47 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		314B07191F814AD200CB6B47 /* BMBottomNoDataView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBottomNoDataView1.h; sourceTree = "<group>"; };
+		314B071A1F814AD200CB6B47 /* BMBottomNoDataView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBottomNoDataView1.m; sourceTree = "<group>"; };
+		314B071B1F814AD200CB6B47 /* BMBottomNoDataView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMBottomNoDataView1.xib; sourceTree = "<group>"; };
+		314B071D1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMProductSearchBottomNoDataView.h; sourceTree = "<group>"; };
+		314B071E1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMProductSearchBottomNoDataView.m; sourceTree = "<group>"; };
+		314B071F1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMProductSearchBottomNoDataView.xib; sourceTree = "<group>"; };
 		32BC0CE01F7CC3F5006871A1 /* MJRefresh-Custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MJRefresh-Custom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32BC0CE41F7CC3F5006871A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32BC0CE61F7CC3F5006871A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32BC0CE71F7CC3F5006871A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32BC0CE91F7CC3F5006871A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32BC0CEA1F7CC3F5006871A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32BC0CED1F7CC3F5006871A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BC0CEF1F7CC3F5006871A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BC0CF21F7CC3F5006871A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,14 +130,6 @@
 		32BC0D451F7CC461006871A1 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		32BC0D461F7CC461006871A1 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		32BC0D471F7CC461006871A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		32CCD4041F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRefreshBackNormalNoMoreDataFooter.h; sourceTree = "<group>"; };
-		32CCD4051F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRefreshBackNormalNoMoreDataFooter.m; sourceTree = "<group>"; };
-		32FD8C301F7F8229004F2B41 /* BMProductSearchBottomNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMProductSearchBottomNoDataView.h; sourceTree = "<group>"; };
-		32FD8C311F7F8229004F2B41 /* BMProductSearchBottomNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMProductSearchBottomNoDataView.m; sourceTree = "<group>"; };
-		32FD8C321F7F8229004F2B41 /* BMProductSearchBottomNoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMProductSearchBottomNoDataView.xib; sourceTree = "<group>"; };
-		32FD8C351F7F8667004F2B41 /* BMBottomNoDataView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBottomNoDataView1.h; sourceTree = "<group>"; };
-		32FD8C361F7F8667004F2B41 /* BMBottomNoDataView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBottomNoDataView1.m; sourceTree = "<group>"; };
-		32FD8C381F7F866F004F2B41 /* BMBottomNoDataView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMBottomNoDataView1.xib; sourceTree = "<group>"; };
 		33C56BDB708DF93C85929E05 /* libPods-MJRefresh-Custom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJRefresh-Custom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FDBB2FC0DF006C938EBF1A /* libPods-MJRefresh-CustomTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJRefresh-CustomTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A160BB2C1540EC4C9D73C83 /* libPods-MJRefresh-CustomUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJRefresh-CustomUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +162,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		314B06FD1F814A9700CB6B47 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				314B06FE1F814A9700CB6B47 /* AppDelegate.h */,
+				314B06FF1F814A9700CB6B47 /* AppDelegate.m */,
+				314B07001F814A9700CB6B47 /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		314B07011F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter */ = {
+			isa = PBXGroup;
+			children = (
+				314B07021F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.h */,
+				314B07031F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.m */,
+			);
+			path = BMRefreshBackNormalNoMoreDataFooter;
+			sourceTree = "<group>";
+		};
+		314B07041F814A9700CB6B47 /* Classs */ = {
+			isa = PBXGroup;
+			children = (
+				314B07051F814A9700CB6B47 /* C */,
+				314B07081F814A9700CB6B47 /* M */,
+				314B07091F814A9700CB6B47 /* V */,
+			);
+			path = Classs;
+			sourceTree = "<group>";
+		};
+		314B07051F814A9700CB6B47 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				314B07061F814A9700CB6B47 /* ViewController.h */,
+				314B07071F814A9700CB6B47 /* ViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		314B07081F814A9700CB6B47 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		314B07091F814A9700CB6B47 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				314B07181F814AD200CB6B47 /* BMBottomNoDataView1 */,
+				314B071C1F814AD200CB6B47 /* BMProductSearchBottomNoDataView */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		314B07181F814AD200CB6B47 /* BMBottomNoDataView1 */ = {
+			isa = PBXGroup;
+			children = (
+				314B07191F814AD200CB6B47 /* BMBottomNoDataView1.h */,
+				314B071A1F814AD200CB6B47 /* BMBottomNoDataView1.m */,
+				314B071B1F814AD200CB6B47 /* BMBottomNoDataView1.xib */,
+			);
+			path = BMBottomNoDataView1;
+			sourceTree = "<group>";
+		};
+		314B071C1F814AD200CB6B47 /* BMProductSearchBottomNoDataView */ = {
+			isa = PBXGroup;
+			children = (
+				314B071D1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.h */,
+				314B071E1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.m */,
+				314B071F1F814AD200CB6B47 /* BMProductSearchBottomNoDataView.xib */,
+			);
+			path = BMProductSearchBottomNoDataView;
+			sourceTree = "<group>";
+		};
 		32BC0CD71F7CC3F5006871A1 = {
 			isa = PBXGroup;
 			children = (
@@ -187,19 +261,10 @@
 		32BC0CE21F7CC3F5006871A1 /* MJRefresh-Custom */ = {
 			isa = PBXGroup;
 			children = (
+				314B06FD1F814A9700CB6B47 /* AppDelegate */,
+				314B07011F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter */,
+				314B07041F814A9700CB6B47 /* Classs */,
 				32BC0D161F7CC461006871A1 /* MJRefresh */,
-				32BC0CE61F7CC3F5006871A1 /* AppDelegate.h */,
-				32BC0CE71F7CC3F5006871A1 /* AppDelegate.m */,
-				32BC0CE91F7CC3F5006871A1 /* ViewController.h */,
-				32BC0CEA1F7CC3F5006871A1 /* ViewController.m */,
-				32CCD4041F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.h */,
-				32CCD4051F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.m */,
-				32FD8C301F7F8229004F2B41 /* BMProductSearchBottomNoDataView.h */,
-				32FD8C311F7F8229004F2B41 /* BMProductSearchBottomNoDataView.m */,
-				32FD8C321F7F8229004F2B41 /* BMProductSearchBottomNoDataView.xib */,
-				32FD8C351F7F8667004F2B41 /* BMBottomNoDataView1.h */,
-				32FD8C361F7F8667004F2B41 /* BMBottomNoDataView1.m */,
-				32FD8C381F7F866F004F2B41 /* BMBottomNoDataView1.xib */,
 				32BC0CEC1F7CC3F5006871A1 /* Main.storyboard */,
 				32BC0CEF1F7CC3F5006871A1 /* Assets.xcassets */,
 				32BC0CF11F7CC3F5006871A1 /* LaunchScreen.storyboard */,
@@ -212,7 +277,6 @@
 		32BC0CE31F7CC3F5006871A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32BC0CE41F7CC3F5006871A1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -472,12 +536,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				32BC0CF31F7CC3F5006871A1 /* LaunchScreen.storyboard in Resources */,
-				32FD8C391F7F866F004F2B41 /* BMBottomNoDataView1.xib in Resources */,
 				32BC0CF01F7CC3F5006871A1 /* Assets.xcassets in Resources */,
 				32BC0D481F7CC461006871A1 /* LICENSE in Resources */,
-				32FD8C341F7F8229004F2B41 /* BMProductSearchBottomNoDataView.xib in Resources */,
 				32BC0D571F7CC461006871A1 /* MJRefresh.bundle in Resources */,
 				32BC0CEE1F7CC3F5006871A1 /* Main.storyboard in Resources */,
+				314B07231F814AD200CB6B47 /* BMProductSearchBottomNoDataView.xib in Resources */,
+				314B07211F814AD200CB6B47 /* BMBottomNoDataView1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,14 +614,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CCD4061F7F773300CB19A8 /* BMRefreshBackNormalNoMoreDataFooter.m in Sources */,
-				32BC0CEB1F7CC3F5006871A1 /* ViewController.m in Sources */,
+				314B07121F814A9700CB6B47 /* BMRefreshBackNormalNoMoreDataFooter.m in Sources */,
+				314B07101F814A9700CB6B47 /* AppDelegate.m in Sources */,
+				314B07221F814AD200CB6B47 /* BMProductSearchBottomNoDataView.m in Sources */,
 				32BC0D591F7CC461006871A1 /* NSBundle+MJRefresh.m in Sources */,
 				32BC0D4F1F7CC461006871A1 /* MJRefreshAutoNormalFooter.m in Sources */,
 				32BC0D4E1F7CC461006871A1 /* MJRefreshAutoGifFooter.m in Sources */,
 				32BC0D5A1F7CC461006871A1 /* UIScrollView+MJExtension.m in Sources */,
 				32BC0D541F7CC461006871A1 /* MJRefreshGifHeader.m in Sources */,
-				32BC0CE81F7CC3F5006871A1 /* AppDelegate.m in Sources */,
 				32BC0D4B1F7CC461006871A1 /* MJRefreshComponent.m in Sources */,
 				32BC0D5D1F7CC461006871A1 /* README.md in Sources */,
 				32BC0D4D1F7CC461006871A1 /* MJRefreshHeader.m in Sources */,
@@ -565,16 +629,16 @@
 				32BC0D531F7CC461006871A1 /* MJRefreshBackStateFooter.m in Sources */,
 				32BC0D491F7CC461006871A1 /* MJRefreshAutoFooter.m in Sources */,
 				32BC0D5B1F7CC461006871A1 /* UIScrollView+MJRefresh.m in Sources */,
-				32FD8C371F7F8667004F2B41 /* BMBottomNoDataView1.m in Sources */,
-				32FD8C331F7F8229004F2B41 /* BMProductSearchBottomNoDataView.m in Sources */,
 				32BC0D511F7CC461006871A1 /* MJRefreshBackGifFooter.m in Sources */,
 				32BC0D551F7CC461006871A1 /* MJRefreshNormalHeader.m in Sources */,
 				32BC0D501F7CC461006871A1 /* MJRefreshAutoStateFooter.m in Sources */,
+				314B07201F814AD200CB6B47 /* BMBottomNoDataView1.m in Sources */,
 				32BC0D4A1F7CC461006871A1 /* MJRefreshBackFooter.m in Sources */,
-				32BC0CE51F7CC3F5006871A1 /* main.m in Sources */,
+				314B07131F814A9700CB6B47 /* ViewController.m in Sources */,
 				32BC0D581F7CC461006871A1 /* MJRefreshConst.m in Sources */,
 				32BC0D521F7CC461006871A1 /* MJRefreshBackNormalFooter.m in Sources */,
 				32BC0D561F7CC461006871A1 /* MJRefreshStateHeader.m in Sources */,
+				314B07111F814A9700CB6B47 /* main.m in Sources */,
 				32BC0D4C1F7CC461006871A1 /* MJRefreshFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

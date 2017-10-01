@@ -17,15 +17,16 @@
 - (void)willMoveToSuperview:(UIView *)newSuperview
 {
     [super willMoveToSuperview:newSuperview];
-    
-    if (newSuperview) { // 新的父控件
+    // view 将要移动时
+    if (newSuperview) {
+        // 新的父控件
         if (self.hidden == NO) {
             self.scrollView.mj_insetB += self.mj_h;
         }
-        
         // 设置位置
         self.mj_y = _scrollView.mj_contentH;
-    } else { // 被移除了
+    } else {
+        // 被移除了
         if (self.hidden == NO) {
             self.scrollView.mj_insetB -= self.mj_h;
         }
@@ -55,6 +56,7 @@
     self.automaticallyRefresh = YES;
 }
 
+/** 当scrollView的contentSize发生改变的时候调用 */
 - (void)scrollViewContentSizeDidChange:(NSDictionary *)change
 {
     [super scrollViewContentSizeDidChange:change];

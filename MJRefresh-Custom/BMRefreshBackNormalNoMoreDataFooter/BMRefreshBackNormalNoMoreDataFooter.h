@@ -8,8 +8,10 @@
 
 #import "MJRefreshBackNormalFooter.h"
 
+#define kBottomNoDataViewHeight 100
+
 @interface BMRefreshBackNormalNoMoreDataFooter : MJRefreshBackNormalFooter
 
-@property (strong, nonatomic) UIView *bottomNoDataView; ///< bottomNoDataView
+@property (strong, nonatomic) UIView *bottomNoDataView;
 
 @end

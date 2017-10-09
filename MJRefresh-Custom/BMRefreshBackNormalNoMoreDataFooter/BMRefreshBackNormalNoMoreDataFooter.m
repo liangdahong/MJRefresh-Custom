@@ -17,6 +17,8 @@
 
 @implementation BMRefreshAutoNormalNoMoreDataFooter
 
+#pragma mark - Getters Setters
+
 - (void)setBottomNoDataView:(UIView *)bottomNoDataView {
     // 删除旧View
     if (_bottomNoDataView) {
@@ -32,16 +34,24 @@
 
 #pragma mark - 重写父类的方法
 
+#pragma mark 在这里做一些初始化配置（比如添加子控件）
+
 - (void)prepare {
     [super prepare];
+    self.mj_h = kBottomNoDataViewHeight;
     self.automaticallyHidden = YES;
 }
 
+#pragma mark 在这里设置子控件的位置和尺寸
+
 - (void)placeSubviews {
     [super placeSubviews];
+
     // 状态标签
     self.bottomNoDataView.frame = self.bounds;
 }
+
+#pragma mark 重置没有更多的数据（消除没有更多数据的状态）
 
 - (void)resetNoMoreData {
     [super resetNoMoreData];
@@ -54,8 +64,13 @@
 
 @implementation BMRefreshBackNormalNoMoreDataFooter
 
+#pragma mark - 重写父类的方法
+
+#pragma mark 在这里做一些初始化配置（比如添加子控件）
+
 - (void)prepare {
     [super prepare];
+
     self.automaticallyHidden = YES;
     
     if (!_bottomNoDataView) {
@@ -67,10 +82,14 @@
     }
 }
 
+#pragma mark 在这里设置子控件的位置和尺寸
+
 - (void)placeSubviews {
     [super placeSubviews];
     self.bottomNoDataView.frame = self.bounds;
 }
+
+#pragma mark 监听控件的刷新状态
 
 - (void)setState:(MJRefreshState)state {
     MJRefreshCheckState
